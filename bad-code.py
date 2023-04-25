@@ -2,6 +2,7 @@ import re
 import datetime
 from collections import OrderedDict
 
+
 def create_racer_abbreviations_dict(file_name):
     """Retrieves {'abbreviation': (name, team)}" format dict from abbreviations.txt"""
     abbreviations_dict = {}
